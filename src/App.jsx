@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Highlights from "./components/Highlights"
+import Model from "./components/Model"
 import Navbar from "./components/Navbar"
 
 const App = () => {
@@ -7,8 +8,9 @@ const App = () => {
   return (
     <main className="bg-black">
       <Navbar />
-      <Hero/>
-      <Highlights/>
+      <Hero />
+      <Highlights />
+      <Model />
     </main>
   )
 }
